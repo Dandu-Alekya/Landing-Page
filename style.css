@@ -1,13 +1,13 @@
 body{
     margin: 0;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    font-family: monospace;
     background-color: white;
     color:white;
 }
+.mainbody{
+    display: flex;
+    flex-direction: column;
 
+}
 .links{
     margin:0;
     padding:0;
@@ -54,12 +54,23 @@ a{
     background-color:#E5E7EB;
 }
 
-.container {
-    padding: 32px;
+.mainbox {
+    padding:20px;
     display: flex;
     justify-content: center;
-    color:#E5E7EB;
+    align-items: center;
+    color:black;
+    gap:10px;
   }
+  .container{
+      padding:20px;
+      text-align: center;
+      color: black;
+  }
+  .box{
+      width:200px;
+  }
+
   
   .card {
     padding: 16px;
@@ -73,3 +84,10 @@ a{
     background-color:rgb(83, 83, 83);
   }
 
+  .container img{
+    border: 4px blue solid;
+    border-radius: 25px;
+    width: 150px;
+    height: 150px;
+    
+  }
