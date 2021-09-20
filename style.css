@@ -61,7 +61,8 @@ a{
     color:#E5E7EB;
 }
 
-.main button{
+.insidebanner button{
+    display: block;
     background-color: #3882F6;
     color: #FFFFFF;
     border: none;
@@ -130,6 +131,33 @@ a{
     width: 150px;
     height: 150px;
     
+  }
+
+  .signup{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding:50px;
+  }
+
+  .signup .banner{
+      background-color: #3882F6;
+      color:white;
+      border-radius: 10px;
+      padding: 40px;
+  }
+
+  .signup button{
+    display: block;
+    background-color: #3882F6;
+    color: #FFFFFF;
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+
   }
 
 
