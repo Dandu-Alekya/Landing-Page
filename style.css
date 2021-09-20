@@ -7,6 +7,7 @@ body{
 .mainbody{
     display: flex;
     flex-direction: column;
+    flex-basis: auto;
 }
 
 /* Navigation bar */
@@ -42,6 +43,8 @@ a{
     color:#E5E7EB;
 }
 
+/*Main header area*/
+
 .main{
     background-color: #1F2937;
     display: flex;
@@ -76,19 +79,22 @@ a{
 .banner{
     display: flex;
     padding:100px 0px 100px 0px;
-    gap:200px;
+    gap:70px;
 }
+
 .insidebanner{
     display: flex;
     flex-direction: column;
     gap:15px;
 }
 
-.main img {
+ .main img {
     height:300px;
     width: 550px;
-}
+} 
 
+
+/*Quote banner area*/
 
 .quotebanner{
     background-color:#E5E7EB;
@@ -106,32 +112,36 @@ a{
 
 }
 
+/*4-boxes area*/
+
 .mainbox {
     padding:20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: wrap;
     color:black;
-    gap:10px;
+    gap:30px;
   }
 
   .container{
       padding:20px;
       text-align: center;
-      color: black;
+      color: #2a2b2c;
   }
-
   .box{
       width:200px;
   }
 
   .container img{
-    border: 4px blue solid;
+    border: 4px #3882F6 solid;
     border-radius: 25px;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     
   }
+
+/* Sign up banner */
 
   .signup{
       display: flex;
@@ -147,6 +157,11 @@ a{
       padding: 40px;
   }
 
+  .sign2 {
+      display: flex;
+      flex-direction: column;
+  }
+
   .signup button{
     display: block;
     background-color: #3882F6;
@@ -160,8 +175,9 @@ a{
 
   }
 
+/*Footer*/ 
 
-  .footer{
+    .footer{
     bottom: 0;
     left: 0;
     right: 0;
