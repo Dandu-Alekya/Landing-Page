@@ -55,7 +55,85 @@ a{
     font-weight: bolder;
     color:#F9FAF8;
 }
-.footer{
+
+.main .text{
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+.main button{
+    background-color: #3882F6;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.banner{
+    display: flex;
+    padding:100px 0px 100px 0px;
+    gap:200px;
+}
+.insidebanner{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.main img {
+    height:300px;
+    width: 550px;
+}
+
+
+.quotebanner{
+    background-color:#E5E7EB;
+    font-weight: light;
+    font-style: italic;
+    font-size:30px;
+    color:#1E2937;
+    padding: 100px;
+    text-align: center;
+}
+
+.quotebanner p {
+    font-style: none;
+    text-align: right;
+
+}
+
+.mainbox {
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    gap:10px;
+  }
+
+  .container{
+      padding:20px;
+      text-align: center;
+      color: black;
+  }
+
+  .box{
+      width:200px;
+  }
+
+  .container img{
+    border: 4px blue solid;
+    border-radius: 25px;
+    width: 150px;
+    height: 150px;
+    
+  }
+
+
+  .footer{
     bottom: 0;
     left: 0;
     right: 0;
@@ -67,45 +145,3 @@ a{
     color:white;
     font-size: 15px;
 }
-
-.quotebanner{
-    background-color:#E5E7EB;
-}
-
-.mainbox {
-    padding:20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color:black;
-    gap:10px;
-  }
-  .container{
-      padding:20px;
-      text-align: center;
-      color: black;
-  }
-  .box{
-      width:200px;
-  }
-
-  
-  .card {
-    padding: 16px;
-    padding-top: 5px;
-    margin: 16px;
-    border: 1px solid #eee;
-    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-    border-radius: 4px;
-    text-align: center;
-    font-size:20px;
-    background-color:rgb(83, 83, 83);
-  }
-
-  .container img{
-    border: 4px blue solid;
-    border-radius: 25px;
-    width: 150px;
-    height: 150px;
-    
-  }
