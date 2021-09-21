@@ -6,7 +6,7 @@ As part of the odin project, this project aims to build a landing page according
 
 ## Desired Outcome 
 
-![desired outcome](.desired-outcome.png)
+![desired outcome](desired-outcome.png)
 
 ### Image Credits:
 Images have been taken from free-to-use images on the web include Pexels and Pixabay.
