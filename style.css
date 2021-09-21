@@ -43,12 +43,9 @@ a{
     color:#E5E7EB;
 }
 
-/*Main header area*/
-
 .main{
     background-color: #1F2937;
     display: flex;
-    flex: 1 1 auto;
     flex-direction: column;
     padding-right: 150px;
     padding-left: 150px;
@@ -60,7 +57,7 @@ a{
     color:#F9FAF8;
 }
 
-.main .text{
+.main p{
     font-size: 18px;
     color:#E5E7EB;
 }
@@ -82,7 +79,6 @@ a{
     padding:100px 0px 100px 0px;
     gap:70px;
 }
-
 .insidebanner{
     display: flex;
     flex-direction: column;
@@ -95,7 +91,6 @@ a{
 } 
 
 
-/*Quote banner area*/
 
 .quotebanner{
     background-color:#E5E7EB;
@@ -108,12 +103,11 @@ a{
 }
 
 .quotebanner p {
-    font-style: none;
-    text-align: right;
+    font-style: normal;
+    text-align: end;
+    font-size: 20px;
 
 }
-
-/*4-boxes area*/
 
 .mainbox {
     padding:20px;
@@ -142,8 +136,6 @@ a{
     
   }
 
-/* Sign up banner */
-
   .signup{
       display: flex;
       justify-content: center;
@@ -163,6 +155,13 @@ a{
       flex-direction: column;
   }
 
+  .sign2 p {
+      padding: 0;
+      margin: 0;
+      font-size: 20px;
+      font-weight: bold;
+  }
+
   .signup button{
     display: block;
     background-color: #3882F6;
@@ -176,9 +175,8 @@ a{
 
   }
 
-/*Footer*/ 
 
-    .footer{
+  .footer{
     bottom: 0;
     left: 0;
     right: 0;
